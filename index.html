@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhamad Xalid</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradientBG 15s ease infinite;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+color:#333;
+padding: 20px;
+overflow-x: hidden;
+}
+
+@keyframes gradientBG {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+.card{
+width:100%;
+max-width:380px;
+background: rgba(255, 255, 255, 0.9);
+backdrop-filter: blur(10px);
+padding: 35px 25px;
+border-radius:30px;
+text-align:center;
+box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+animation: fadeInUp 1s ease-out forwards;
+opacity: 1;
+}
+
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(40px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.card img{
+width:130px;
+height:130px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #fff;
+box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+margin-bottom:20px;
+transition: transform 0.5s ease;
+}
+
+.card img:hover {
+transform: scale(1.1) rotate(5deg);
+}
+
+h1{
+font-size:26px;
+color: #222;
+margin-bottom:8px;
+font-weight: 700;
+}
+
+p{
+color:#666;
+font-size: 15px;
+margin-bottom:25px;
+}
+
+.link{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:15px;
+background:#ffffff;
+color:#333;
+text-decoration:none;
+padding:16px;
+margin:14px 0;
+border-radius:18px;
+font-size:17px;
+font-weight: 600;
+box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+border: 1px solid rgba(0,0,0,0.05);
+transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.link:hover{
+transform: scale(1.04) translateY(-3px);
+box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+background: #ffffff;
+}
+
+.fa-facebook{color:#1877F2;}
+.fa-snapchat{color:#EBAE00;}
+.fa-telegram{color:#27A7E7;}
+.fa-whatsapp{color:#25D366;}
+.fa-viber{color:#734098;}
+.fa-tiktok{color:#000000;}
+.fa-youtube{color:#FF0000;}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<img src="me.png">
+
+<h1>Muhamad Xalid</h1>
+
+<p>Welcome to my social links</p>
+
+<a class="link" href="https://www.facebook.com/share/18Wpzeyend/" target="_blank">
+<i class="fab fa-facebook fa-lg"></i> Facebook
+</a>
+
+<a class="link" href="https://www.snapchat.com/add/muhamadm.m?share_id=1eCIFTLX9T8&locale=en-GB" target="_blank">
+<i class="fab fa-snapchat fa-lg"></i> Snapchat
+</a>
+
+<a class="link" href="https://t.me/Muhamadxalid0" target="_blank">
+<i class="fab fa-telegram fa-lg"></i> Telegram
+</a>
+
+<!-- لینکی واتسئاپەکە بە ژمارەی خۆتەوە -->
+<a class="link" href="https://wa.me/9647503135235" target="_blank">
+<i class="fab fa-whatsapp fa-lg"></i> WhatsApp
+</a>
+
+<!-- لینکی ڤایبەرەکە بە ژمارەی خۆتەوە -->
+<a class="link" href="viber://add?number=9647503135235" target="_blank">
+<i class="fab fa-viber fa-lg"></i> Viber
+</a>
+
+<a class="link" href="https://www.tiktok.com/@hamaheroyy?_r=1&_t=ZS-97liNkSNgox" target="_blank">
+<i class="fab fa-tiktok fa-lg"></i> TikTok
+</a>
+
+<a class="link" href="https://youtube.com/@hamauk-vm5uv?si=a86nhqgPmMmwAiSn" target="_blank">
+<i class="fab fa-youtube fa-lg"></i> YouTube
+</a>
+
+</div>
+
+</body>
+</html>
